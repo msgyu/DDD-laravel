@@ -1,0 +1,10 @@
+/* Object Layer */
+
+
+.common-container {
+  width: 100%;
+  min-height: 100vh;
+  &.-bg-white-powder-white{
+    background-color: $white-powder-white;
+  }
+}

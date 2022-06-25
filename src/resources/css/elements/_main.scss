@@ -1,0 +1,32 @@
+/* Element Layer */
+html, body , #app{
+    height: 100%;
+}
+
+
+body {
+  font-family: $font-family;
+  font-weight: normal;
+  line-height: 1.6;
+  color: $black-dark-grey;
+  -webkit-font-smoothing: antialiased;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+  }
+  
+  ::-webkit-scrollbar-track{
+    background: #2D3748;
+  }
+  
+  ::-webkit-scrollbar-thumb{
+    background: #CBD5E0;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover{
+    background: #718096;
+  }
